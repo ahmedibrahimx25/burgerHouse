@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:not(.logo, .navbar-element) {
+    background: rgb(209, 203, 203);
+}
+
+.navbar {
+    background: black;
+    padding: 14.5px 0px;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 8px;
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+    border: 8px solid rgb(206, 85, 5);
+}
+.navbar-element {
+    padding: 16px 20px;
+    font-size: 26px;
+    color: white;
+}
+
+.navbar-element:hover {
+    background-color: rgb(83, 82, 82);
+}
+
+.sign-in {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sign-in a {
+    color: blue;
+}
+
+.item {
+    margin: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+
+.last-item {    
+    margin: 50px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    float: left;
+}
+
+div p {
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+#double-cheese-burger {
+    max-width: 130px;
+    max-height: 130px;
+    padding-left: 15px;
+}
+
+#cheesy-chicken-burger {
+    max-width: 175px;
+    max-height: 200px;
+}
+
+#chicken-wings {
+    padding-top: 25px;
+}
+
+#mozzarella-sticks {
+    padding-top: 15px;
+}
+
+#fries {
+    max-height: 130px;
+    padding-left: 25px;
+}
+
+#bottle-of-water {
+    padding-left: 50px;
+}
+
+#pepsi, #pepsi-diet, #sprite, #fanta {
+    padding-left: 40px;
+}

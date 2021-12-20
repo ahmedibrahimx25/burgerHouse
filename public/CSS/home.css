@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: black;
+    padding: 14.5px 0px;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 8px;
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+    border: 8px solid rgb(206, 85, 5);
+}
+.navbar-element {
+    padding: 16px 20px;
+    font-size: 26px;
+    color: white;
+}
+
+.navbar-element:hover {
+    background-color: rgb(83, 82, 82);
+}
+
+.background {
+    min-height: 100vh;
+    background: url("../images/Home background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 { 
+    font-weight: lighter;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+span {
+    display: block;
+    font-size: 125px;
+}
+
+form {
+    padding-top: 15px;
+    text-align: center;
+    background: rgb(209, 203, 203);
+}
+input[type="email"], input[type="password"] {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(148, 144, 144);
+    outline: none;
+}
+
+input[type="submit"] {
+    border: none;
+    width: 410px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    background-color: rgb(206, 85, 5);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:disabled{
+  background-color:gray;
+  cursor: auto;
+}
+
+.sign-up {
+        font-size: 20px;
+        color: rgb(4, 28, 252);
+}

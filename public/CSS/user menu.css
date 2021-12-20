@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:not(.logo, .navbar-element, .username ,button) {
+    background: rgb(209, 203, 203);
+}
+
+.navbar {
+    background: black;
+    padding: 14.5px 0px;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 8px;
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+    border: 8px solid rgb(206, 85, 5);
+}
+.navbar-element {
+    padding: 16px 20px;
+    font-size: 26px;
+    color: white;
+}
+
+.navbar-element:hover {
+    background-color: rgb(83, 82, 82);
+}
+
+.first-section {
+    padding-top: 20px;
+}
+
+.item {
+    margin: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+
+.last-item {    
+    margin: 50px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    float: left;
+}
+
+div p {
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+#double-cheese-burger {
+    max-width: 130px;
+    max-height: 130px;
+    padding-left: 15px;
+}
+
+#cheesy-chicken-burger {
+    max-width: 175px;
+    max-height: 200px;
+}
+
+#chicken-wings {
+    padding-top: 25px;
+}
+
+#mozzarella-sticks {
+    padding-top: 15px;
+}
+
+#fries {
+    max-height: 130px;
+    padding-left: 25px;
+}
+
+#bottle-of-water {
+    padding-left: 50px;
+}
+
+#pepsi, #pepsi-diet, #sprite, #fanta {
+    padding-left: 40px;
+}
+
+button{
+    display: inline;
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    background: chocolate;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px rgb(100, 100, 100);
+}
+
+button:active {
+    box-shadow: 2px 2px rgb(100, 100, 100);
+    transform: translateY(4px);
+}
+
+button:disabled{
+  background-color:gray;
+  cursor: auto;
+  box-shadow: none;
+}
+
+h1 {
+    display: inline;
+    font-size: 75px;
+    font-weight: lighter;
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px 20px;
+}
+
+.number {  
+    margin-right: 75px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.add-to-cart {
+    float: right;
+    height: 40px;
+    width: 230px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 73px;
+    margin-top: -25px;
+}

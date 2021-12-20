@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0 5px;
+}
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:not(.logo, .navbar-element, input, button) {
+    background: rgb(209, 203, 203);
+}
+
+.navbar {
+    background: black;
+    padding: 14.5px 0px;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 8px;
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+    border: 8px solid rgb(206, 85, 5);
+}
+.navbar-element {
+    padding: 16px 20px;
+    font-size: 26px;
+    color: white;
+}
+
+.navbar-element:hover {
+    background-color: rgb(83, 82, 82);
+}
+
+form {
+    padding-top: 15px;
+    background: rgb(209, 203, 203);
+}
+
+h1 {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+#error-message {
+display: none;
+margin-left: 30px;
+color: red;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+span {
+    vertical-align: sub;
+}
+
+input {
+    margin-left: 20px;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 23px;
+    border: 1px solid rgb(148, 144, 144);
+    outline: none;
+}
+
+#confirm {
+    border: none;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(206, 85, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: white;
+    margin:  20px 0px 20px 550px;
+    cursor: pointer;
+}
+
+#confirm:disabled{
+  background-color:gray;
+  cursor: auto;
+}

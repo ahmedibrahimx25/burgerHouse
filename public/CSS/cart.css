@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:not(.logo, .navbar-element, .username, button) {
+    background: rgb(209, 203, 203);
+}
+
+.navbar {
+    background: black;
+    padding: 14.5px 0px;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 8px;
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+    border: 8px solid rgb(206, 85, 5);
+}
+.navbar-element {
+    padding: 16px 20px;
+    font-size: 26px;
+    color: white;
+}
+
+.navbar-element:hover {
+    background-color: rgb(83, 82, 82);
+}
+
+#box {
+    margin: 50px 100px;
+    border: 10px solid chocolate; padding: 0px;
+    border-radius: 15px;
+}
+
+p {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+} 
+
+button{
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    background: chocolate;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px rgb(100, 100, 100);
+}
+
+button:active {
+    box-shadow: 2px 2px rgb(100, 100, 100);
+    transform: translateY(4px);
+}
+
+button:disabled{
+  background-color:gray;
+  cursor: auto;
+  box-shadow: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px 20px;
+}
+
+.number {  
+    padding-right: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#total {
+    padding: 10px 0px 10px 30px;
+}
+
+.number p {
+    padding-right: 150px;
+} 
+
+.item {
+    padding: 20px;
+}
+
+.checkout {
+    text-align: center;
+}
+
+#checkout {
+    background: chocolate;
+    color: white;
+    border: 5px solid chocolate;
+    border-radius: 60px;
+    margin-top: 30px;
+    padding: 0px 20px;   
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#empty {
+    margin: 245px 0px;
+    text-align: center;
+}
+
+#empty a {
+    background: chocolate;
+    color: white;
+    border: 5px solid chocolate;
+    border-radius: 50px;
+    padding: 0px 20px;   
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 50px;
+}
